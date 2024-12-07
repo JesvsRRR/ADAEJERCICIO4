@@ -8,6 +8,8 @@
 
 > I) Entrada del n° de filas y columnas en la matriz
 
+- En este ejercicio se pide ingresar 2 variables n° de filas y n° de columnas respectivamente (n y m), se utiliza la libreria Scanner para ingresar dichos datos siempre y cuando cumplan la condición de ser mayores a 0.
+
 ```bash
 import java.util.Scanner;
 ```
@@ -33,6 +35,9 @@ import java.util.Scanner;
 ```bash
 transpuesta(n,m);
 ```
+- Se llama a la función `transpuesta(n,m)` la cual utilizara las variables `"n"` y `"m"`.
+- Se inicializa dos estructuras bidimensionales: `Matriz[n][m]` y `Transpuesta[m][n]`.
+- Se ingresan los datos numericos a cada elemento de la matriz mediante un bucle doble.
 
 ```bash
 public class Main {
@@ -50,6 +55,9 @@ public class Main {
     }
 ```
 > III) Impresión de matrices (original y transpuesta) e transferencia de elementos de la matriz original hacia la transpuesta
+
+- Nuevamente se hace un recorrido en doble bucle para imprimir cada elemento de ambas matrices
+- Una matriz traspuesta se trata del resultado cuando las filas se vuelven columas y viceversa a partir de una matriz original, al tener la matriz `Matriz` rellenada vamos a pasar estos elementos a la matriz `Transpuesta[m][n]` mientras imprime sus elementos de salida, al final el algoritmo concluye con la matriz original y su contraparte traspuesta.
 
 ```bash
     System.out.println("MATRIZ ORIGINAL:");
