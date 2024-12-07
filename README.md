@@ -137,15 +137,16 @@ public class Main {
 
 > I) Entrada del n° de filas y columnas en la matriz
 
-- Complejidad de tiempo: 𝑂(1)
-- Complejidad de espacio: 𝑂(1)
+- Complejidad de tiempo: 𝑂(1) (Ya que toma una entrada,en el peor caso de multiples entradas erroneas seria 𝑂(k))
+- Complejidad de espacio: 𝑂(1) (Debido a que utiliza solo variables escalares)
 
 > II) Ingreso de numeros enteros en la matriz
 
-- Complejidad de tiempo: 𝑂(n x m)
-- Complejidad de espacio: 𝑂(n x m)
+- Complejidad de tiempo: 𝑂(n x m) (Debido a que requiere recorrer `n` x `m` dependiendo del n° de filas y columnas)
+- Complejidad de espacio: 𝑂(n x m) (Debido a que ocupa una estructura de datos bidimensional de tamaño `n` x `m`)
 
 > III) Impresión de matrices (original y transpuesta) e transferencia de elementos de la matriz original hacia la transpuesta
 
-- Complejidad de tiempo: 𝑂(n x m)
+- Complejidad de tiempo: 𝑂(n x m) 
 - Complejidad de espacio: 𝑂(n x m)
+ - Todas sus complejidades llegan a ser de `n x m` tanto en la impresión de las matrices y calculo de la traspuesta.
