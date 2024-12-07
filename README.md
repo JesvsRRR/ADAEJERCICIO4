@@ -149,4 +149,4 @@ public class Main {
 
 - Complejidad de tiempo: 𝑂(n x m) 
 - Complejidad de espacio: 𝑂(n x m)
- - Todas sus complejidades llegan a ser de `n x m` tanto en la impresión de las matrices y calculo de la traspuesta.
+  - Todas sus complejidades llegan a ser de `n x m` tanto en la impresión de las matrices y calculo de la traspuesta.
