@@ -124,3 +124,20 @@ public class Main {
     }
 }
 ```
+
+# 3. Complejidad
+
+> I) Entrada del n° de filas y columnas en la matriz
+
+- Complejidad de tiempo: 𝑂(1)
+- Complejidad de espacio: 𝑂(1)
+
+> II) Ingreso de numeros enteros en la matriz
+
+- Complejidad de tiempo: 𝑂(n x m)
+- Complejidad de espacio: 𝑂(n x m)
+
+> III) Impresión de matrices (original y transpuesta) e transferencia de elementos de la matriz original hacia la transpuesta
+
+- Complejidad de tiempo: 𝑂(n x m)
+- Complejidad de espacio: 𝑂(n x m)
