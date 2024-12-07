@@ -1,10 +1,7 @@
-
-package cuatro;
-
 import java.util.Scanner;
 
 
-public class CUATRO {
+public class Main {
 
     public static void transpuesta(int n,int m){
     Scanner sc = new Scanner(System.in);
